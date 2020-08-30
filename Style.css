@@ -1,0 +1,26 @@
+.container{
+	padding: 0;
+	margin:0;
+	width:100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box{
+	height: 60vmin;
+	width:60vmin;
+	display: inherit;
+	align-items: inherit;
+	justify-content: inherit;
+	border:7.5vmin solid white;
+}
+
+.box, body{
+	background-color:black;
+}
+
+.hello{
+	color:#fff;
+}
